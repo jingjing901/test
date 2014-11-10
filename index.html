@@ -2,18 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Untitled Document</title>
-<style>
-#b{width:5%; height:3%; position:fixed; float:right;left:45%;top:47%;}
-</style>
 </head>
-
+<script>
+var date = new Date(1398250549490);
+Y = date.getFullYear() + '-';
+M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+D = date.getDate() + ' ';
+h = date.getHours() + ':';
+m = date.getMinutes() + ':';
+s = date.getSeconds(); 
+//console.log(Y+M+D+h+m+s); 
+alert(Y+M+D+h+m+s);
+</script>
 <body>
-<form id="b">
-<input type="text" />
-<input type="button" value="提交" onclick="">
-</form>
-
 </body>
 </html>
